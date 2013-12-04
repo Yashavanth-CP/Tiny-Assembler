@@ -1,0 +1,10 @@
+MOV [2] [0]
+MOV 3 0
+JEQ 6 [3] [1]
+AWD [3] 1
+ADD [2] [0]
+JMP 2
+MOV [0] [2]
+HALT 2
+BASH
+
